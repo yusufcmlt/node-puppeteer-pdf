@@ -2,7 +2,7 @@
   "name": "puppeteer-pdf",
   "version": "0.0.1",
   "description": "Puppeteer html to pdf",
-  "main": "index.js",
+  "main": "create-pdf.js",
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
     "puppeteer-core": "^14.1.1"
