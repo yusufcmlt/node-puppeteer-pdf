@@ -1,11 +1,9 @@
-const chromium = require("chrome-aws-lambda");
+const puppeteer = require("puppeteer");
 
 const createPdf = async (htmlPage) => {
-  const browser = await chromium.puppeteer.launch({
-    args: chromium.args,
-    defaultViewport: chromium.defaultViewport,
-    executablePath: await chromium.executablePath,
-    headless: chromium.headless,
+  const browser = await puppeteer.launch({
+    args: puppeteer.args,
+    headless: true,
   });
 
   const page = await browser.newPage();
