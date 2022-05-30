@@ -1,2 +1,2 @@
 # node-puppeteer-pdf
-Pdf api thing with nodejs and puppeteer
+HTML to PDF thing with serverless functions and puppeteer
